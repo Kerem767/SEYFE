@@ -1,0 +1,288 @@
+body{
+    margin: o;
+    padding: o;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.continer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a:link, .a:visited {
+    background-color: blue;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.a:hover, .a:active {
+    background-color:rgb(80, 80, 230);
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    background-image: url(Kera.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+
+.column1{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.row{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 100px;
+    margin: 1px;
+}
+
+.a:link, .a:visited {
+    width: 70px;
+    background-color: rgb(10, 10, 165);
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.a:hover, .a:active {
+    background-color:rgb(9, 9, 117);
+}
+.row h1{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.feature-icons{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+.icons a{
+    font-size: 100px;
+    color: rgb(16, 181, 247);
+}
+.icons h1{
+    font-size: 20px;
+    color: black; 
+    font-weight: bold;
+}
+.icons h2{
+    font-size: 15px;
+    color: black;
+}
+.gutters{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.img{
+    width: 50%;
+    height: 500px;
+}
+.text{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.text  h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+.text  p{
+    font-size: 20px;
+    color: black;
+    margin: 0px 100px 
+}
+.header1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+.text3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 30px;
+}
+.text3 h1{
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.bottom-color{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+.color{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 75px
+}
+.box img{
+    border-radius: 100px;
+}
+.box h1{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.box p{
+    font-size: 15px;
+    color: black;
+}
+.header2{
+    width: 100%;
+    height: 400px;
+    background-image: url(Kera.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.ixem{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ixem h1{
+    font-size: 20px;
+    color: rgb(56, 55, 55);
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.link a{
+    font-size: 20px;
+    color:rgb(47, 47, 54);
+    margin: 10px;
+}
+.link h1{
+    color: black;
+    margin:15px;
+     
+}
+.link a:hover, a:active{
+        color:rgb(44, 49, 45);
+}
+a{
+    text-decoration: none;
+}
+.ixem1{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items:center;
+}
+.ixem2{
+    width: 210px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+.ixem2 a{
+    color:#373d37;
+    font-size: 30px;
+    margin: 20px;
+    
+}
+.ixem2 a:hover, a:active{
+    color:#230591;
+}
